@@ -303,44 +303,12 @@ http://127.0.0.1:8000
 
 Jika menjalankan seeder bawaan Laravel pada project ini, akun awal yang tersedia adalah:
 
-| Role | Email | Password |
-|---|---|---|
-| Staff | test@example.com | password |
-
-> Catatan: Akun dari seeder bawaan memiliki role default `staff`. Untuk mengakses menu **Approval**, pengguna perlu memiliki role `admin`.
-
----
-
-## 👑 Membuat Akun Admin
-
-Jika ingin membuat akun admin melalui terminal, jalankan:
-
-```bash
-php artisan tinker
-```
-
-Lalu masukkan kode berikut:
-
-```php
-\App\Models\User::create([
-    'name' => 'Admin SISKA',
-    'email' => 'admin@siska.com',
-    'password' => bcrypt('password'),
-    'role' => 'admin'
-]);
-```
-
-Keluar dari tinker:
-
-```bash
-exit
-```
-
 Setelah itu login menggunakan:
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@siska.com | password |
+| Admin | admin@gmail.com | admin |
+| Staf | staff@gmail.com | staff |
 
 ---
 
@@ -372,53 +340,10 @@ Setelah itu login menggunakan:
 
 ---
 
-## 🌐 Cara Membuat Link Localhost Bisa Dibuka Orang Lain
-
-Laravel tidak bisa langsung dijalankan melalui GitHub Pages karena Laravel membutuhkan server PHP. Namun, aplikasi lokal dapat dibuat menjadi link sementara menggunakan **ngrok**.
-
-### 1. Jalankan Laravel
-
-```bash
-php artisan serve
-```
-
-Biasanya aplikasi berjalan pada:
-
-```text
-http://127.0.0.1:8000
-```
-
-### 2. Buka Terminal Baru dan Jalankan Ngrok
-
-```bash
-ngrok http 8000
-```
-
-Setelah itu akan muncul link seperti:
-
-```text
-https://contoh-link.ngrok-free.app
-```
-
-Link tersebut dapat dibagikan agar aplikasi lokal bisa dibuka dari perangkat lain selama laptop dan ngrok masih menyala.
-
----
-
 ## 📸 Screenshot
 
-Tambahkan screenshot aplikasi ke folder `docs`, lalu panggil pada README seperti berikut:
+<img width="682" height="767" alt="image" src="https://github.com/user-attachments/assets/e33e1529-7aac-4637-a150-defaa2fbd507" />
 
-```markdown
-![Dashboard SISKA](docs/dashboard.png)
-```
-
-Contoh tampilan logo:
-
-<p align="center">
-  <img src="public/logo/siska.png" width="120" alt="SISKA Logo">
-</p>
-
----
 
 ## 📌 Status Project
 
@@ -430,7 +355,7 @@ Project ini dibuat untuk kebutuhan pembelajaran dan pengembangan sistem informas
 
 **Tun Pasek Sarwiko Dipranoto**  
 Universitas Udayana
-
+Informatika
 ---
 
 ## 📜 Lisensi
