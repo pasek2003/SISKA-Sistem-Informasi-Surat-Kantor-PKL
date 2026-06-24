@@ -19,6 +19,8 @@
 Project ini dibangun menggunakan **Laravel** dengan tampilan antarmuka sederhana berbasis **Blade Template** dan **Tailwind CSS CDN**.
 
 ---
+## MANUAL BOOK
+https://drive.google.com/file/d/1QXow_r0GE6b6XDF4c9oRhPpF91HO9dUp/view?usp=sharing
 
 ## ✨ Fitur Utama
 
@@ -433,4 +435,4 @@ Universitas Udayana
 
 ## 📜 Lisensi
 
-Project ini dibuat untuk kebutuhan pembelajaran, tugas, dan pengembangan sistem informasi surat kantor.
+Project ini dibuat untuk kebutuhan pembelajaran, tugas, dan pengembangan sistem informasi surat kantor. Sudah Di Lakukan Penerbitan HKI : https://drive.google.com/file/d/1BIBQBiY8x8LYCpJEr8bCj_BpiLYOuqeG/view?usp=sharing
